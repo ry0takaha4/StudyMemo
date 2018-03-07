@@ -8,20 +8,20 @@
 - JVM上で動作する
 - JavaScriptへのトランスパイルも可能
 - LLVM Toolchainを使ってネイティブコードにコンパイルできる
- - iOS等でのクロスプラットフォームを目指している
+  - iOS等でのクロスプラットフォームを目指している
 - KotlinはJavaと100%互換有り
 - 既存のJavaプロジェクトの一部をKotlinにすることも可能
 
 # Kotlinの思想
 
 - 歴史が浅く、(2011年)、多数の言語の影響を受けている
- - Java,Scala,C#,Groovy に大きな影響
- - Objective-C,Gosu,Spec#,Python,Eiffelも参考
+  - Java,Scala,C#,Groovy に大きな影響
+  - Objective-C,Gosu,Spec#,Python,Eiffelも参考
 
 - Kotlinの目標
- - Javaと同等のコンパイル速度を目指す
-  - 今はまだJavaと同等のコンパイル速度ではない
-   - しかし、意識するほど遅くはないので十分実用可能
+  - Javaと同等のコンパイル速度を目指す
+    - 今はまだJavaと同等のコンパイル速度ではない
+      - しかし、意識するほど遅くはないので十分実用可能
 
 # Kotlinの歴史
 - 2012/2/14にApache Lisence 2.0でOSS化
@@ -230,5 +230,6 @@ val l: Int = b?.length ?: -1
 print(l) //-1
 ```
 
+https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt
 file:///Users/AdminAir/Downloads/kotlin-prior-learning-book.pdf
 // 35Pで一旦中断
